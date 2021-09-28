@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=numero
+comment0.target=int\ calcularFactorial(int)
+comment1.params=numero
+comment1.target=int\ calcularFactorial2(int)
+numComments=2

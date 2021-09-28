@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=numero
+comment0.target=int\ contarDigitosPares(int)
+comment1.params=numAux
+comment1.target=int\ buscarNumPar(int)
+numComments=2

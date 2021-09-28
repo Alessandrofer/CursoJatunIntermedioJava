@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=num
+comment0.target=int\ invertirNum(int)
+comment1.params=numero\ aux
+comment1.target=int\ invertirNum(int,\ int)
+comment2.params=num
+comment2.target=int\ contarDigitos(int)
+numComments=3
