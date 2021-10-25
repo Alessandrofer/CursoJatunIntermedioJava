@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArbolBin()
+comment1.params=
+comment1.target=boolean\ estaVacio()
+comment2.params=dato
+comment2.target=void\ addAmplitud(java.lang.Object)
+comment3.params=dato\ cola
+comment3.target=void\ addAmplitud(java.lang.Object,\ java.util.Queue)
+comment4.params=
+comment4.target=int\ contarNodosHoja()
+comment5.params=
+comment5.target=boolean\ esHoja()
+comment6.params=nivel
+comment6.target=void\ mostrarNodosDelNivelN(int)
+comment7.params=dato
+comment7.target=boolean\ contains(java.lang.Object)
+comment8.params=dato
+comment8.target=void\ remove(java.lang.Object)
+comment9.params=
+comment9.target=int\ contarNodosDeUnHijo()
+numComments=10
