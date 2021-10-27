@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=java.lang.String\ Invertir()
-comment1.params=palabra
-comment1.target=void\ agregar(java.lang.String)
+comment0.params=palabra
+comment0.target=void\ agregar(java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ Invertir()
 numComments=2

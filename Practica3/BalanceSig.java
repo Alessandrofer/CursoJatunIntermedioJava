@@ -6,15 +6,32 @@ import java.util.Stack;
  * @v1.0
  */
 public class BalanceSig{
-    private Stack<Character> pila;
-    public String verificar(String signos){
-        String res ="";
-        pila = new Stack<>();
-        for(int i=0;i<signos.length();i++){
-            char act = signos.charAt(i);
-            if(act){
-                
+    public String VerificarBalance(String cad){
+        String res = "";
+        Stack<Character> pila = new Stack<>();
+        for(int i=0;i<cad.length();i++){
+            char act = cad.charAt(i);
+            if(act == '{'|| act == '[' || act == '('){
+                pila.push(act);
+            }else{
+                char aux = pila.peek();
+                if(sonOpuestos(aux,act)){
+                    res = "Simbolos Balanceados";
+                    pila.pop();
+                }else{
+                    res = "No tiene Balance";
+                    i = cad.length();
+                }
             }
+        }
+        return res;
+    }
+
+    private boolean sonOpuestos(char a, char b){
+        if(a == '(' && b == ')' || a == '[' && b == ']' || a == '{' && b == '}'){
+            return true;
+        }else{
+            return false;
         }
     }
 }

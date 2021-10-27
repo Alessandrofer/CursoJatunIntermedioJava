@@ -7,20 +7,21 @@ import java.util.Stack;
  */
 public class InvertirNombre{
     private Stack<Character> pila;
-    public String Invertir(){
-        String res ="";
-        while(!pila.empty()){
-            char caracAux = pila.pop();
-            res = res + caracAux;
-        }
-        return res;
-    }
+
     public void agregar(String palabra){
         pila = new Stack<>();
         for(int i=0; i<palabra.length();i++){
-            char carac = palabra.charAt(i);
-            pila.push(carac);
+            char caracter = palabra.charAt(i);
+            pila.push(caracter);
         }
     }
-   
+
+    public String Invertir(){
+        String res = "";
+        while(!pila.empty()){
+            char caracterAux = pila.pop();
+            res = res + caracterAux;
+        }
+        return res;
+    }
 }
